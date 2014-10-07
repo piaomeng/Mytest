@@ -45,6 +45,9 @@ public class testIP {
 			{	
 				System.out.println("相等");
 			}
+			else {
+				System.out.println("不相等");
+			}
 		}
 		catch(Exception e){
 			System.out.println("没有找到主机地址");
